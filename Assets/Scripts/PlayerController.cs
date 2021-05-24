@@ -34,6 +34,12 @@ public class PlayerController : MonoBehaviour
         if (collision.collider.tag == "Obstacle")
         {
             ani.SetTrigger("damage");
+            GameManager.instance.AddScore(-1);
+        }
+        if (collision.collider.tag == "Enermy")
+        {
+            ani.SetTrigger("attack01");
+            GameManager.instance.OnPlayerDead();
         }
     }
 }
