@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: b84e51d7c128dee43aa6d5741f333ddd
   m_configObjects: {}
